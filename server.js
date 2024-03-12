@@ -23,7 +23,7 @@ const htmlMessageListner = (req, res) => {
     //set the header
      res.writeHead (200);
      // send it some html
-     res.end("<html><h1>Hello-world!</h1></html>");
+     res.end("<html><h1>#{pageData}</h1></html>");
      //DONE: create a simple server
      // const server = http.createServer
 }
