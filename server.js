@@ -18,6 +18,15 @@ const server = http.createServer((request,response) => {
     response.writeHead(200);
     //Render data
     response.end("This is a running server!");
+
+const htmlMessageListner = (req, res) => {
+    //set the header
+     res.writeHead (200);
+     // send it some html
+     res.end("<html><h1>Hello-world!</h1></html>");
+     //DONE: create a simple server
+     // const server = http.createServer
+}
 })
 
 //DONE set the server t listen
